@@ -1,2 +1,0 @@
-# UniAcierta
-Creación de UniAcierta
