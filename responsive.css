@@ -1,0 +1,678 @@
+/* =================================================================================================================================================== */
+/*                                                          Diseño WEB                                                                                 */
+/* =================================================================================================================================================== */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/*  ///////////////////// Pantallas hasta 1800px ///////////////////// */
+@media (max-width: 1800px)  {
+
+    /*----------------------------- Contenido 1 -----------------------------*/
+
+    .cont1_contenidos3 h1{
+        font-size: 70px; /*Tamaño original 80px*/
+
+        /* color: red; */
+    }
+    .cont1_contenidos3 p{
+        font-size: 25px; /*Tamaño original 30px*/
+
+        /* color: red; */
+    }
+    #cont1_contenidos4_interno1 h1{
+         font-size: 50px; /* tamaño original 50px*/
+         
+         /* color: red; */
+    }
+    /*----------------------------- Contenido 2 -----------------------------*/
+
+    /*Nada que ajustar del contenido 2*/
+
+    /*----------------------------- Contenido 2 -----------------------------*/
+
+    /*----------------------------- Contenido 3 -----------------------------*/
+
+    .contenido3_central1_conts_img img{ /* Modifica tamaño de las imagenes del telefono y del correo de  contacto*/
+        height: 70%;
+    }
+    .contenido_central_conts_imagenesInfo a img{ /* Modifica tamaño de imagenes de redes sociales*/
+        height: 55%; 
+    }
+
+    /*----------------------------- Contenido 3 -----------------------------*/
+}
+/*  ///////////////////// Pantallas hasta 1800px ///////////////////// */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/*  ///////////////////// Pantallas hasta 1600px ///////////////////// */
+@media (max-width: 1600px)  {
+
+    /*----------------------------- Contenido 1 -----------------------------*/
+
+    .cont1_contenidos3 h1{
+        font-size: 65px; /*Tamaño original 80px*/
+
+        /* color: blue; */
+    }
+    .cont1_contenidos3 p{
+        font-size: 20px; /*Tamaño original 30px*/
+
+        /* color: blue; */
+    }
+    #cont1_contenidos4_interno1 h1{
+         font-size: 45px; /* tamaño original 55px*/
+         
+         /* color: blue; */
+    }
+    #cont1_contenidos4_interno2 p{
+        font-size: 19px; /*tamaño original 20px*/
+
+        /* color: blue; */
+    }
+    /*----------------------------- Contenido 2 -----------------------------*/
+    .contenido2_info_1_conts_imgs img{
+        margin: auto;
+        
+        /* background-color: blue; */
+    }
+    .contenido2_info_1_conts_txts h1{
+        font-size: 20px;/*Tamaño orginal 25px*/
+        text-align: center;
+        /* color: blue; */
+    }
+    .contenido2_info_1_conts_txts p{
+        font-size: 17px;
+        text-align: center;
+        /* color: blue; */
+    }
+    #pImagenesInfo100{
+        text-align: center;
+    }
+    #contenido2_info_3{
+        height: 700px;
+
+        /* background-color: blue; */
+    }
+    .central_boton_detalles1 p{
+        font-size: 22px; /*Tamaño original 25px*/
+        
+        /* color: blue; */
+    }
+
+
+
+    /*----------------------------- Contenido 2 -----------------------------*/
+
+    /*----------------------------- Contenido 3 -----------------------------*/
+
+    
+
+    .contenido3_central1_conts_img img{ /* Modifica tamaño de las imagenes del telefono y del correo de  contacto*/
+        height: 60%; /*Tamaño original 75%*/
+    }
+    .contenido_central_conts_imagenesInfo a img{ /* Modifica tamaño de imagenes de redes sociales*/
+        height: 50%;  /*Tamaño original 60%*/
+    }
+    
+
+    /*----------------------------- Contenido 3 -----------------------------*/
+}
+/*  ///////////////////// Pantallas hasta 1600px ///////////////////// */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/*  ///////////////////// Pantallas hasta 1400px ///////////////////// */
+
+@media (max-width: 1400px)  {
+
+    /*----------------------------- Contenido 1 -----------------------------*/
+    #Cont1{
+        height: 650px;
+
+        /* background-color: pink; */
+        
+    }
+    .cont1_contenidos3 h1{
+        font-size: 50px; /*Tamaño original 80px*/
+
+        /* color: pink; */
+    }
+    .cont1_contenidos3 p{
+        font-size: 19px; /*Tamaño original 30px*/
+
+        /* color: pink; */
+    }
+    #cont1_contenidos4_interno1 h1{
+         font-size: 35px; /* tamaño original 55px*/
+         
+         /* color: pink; */
+    }
+    #cont1_contenidos4_interno2 p{
+        font-size: 17px; /*tamaño original 20px*/
+
+        /* color: pink; */
+    }
+    /*----------------------------- Contenido 2 -----------------------------*/
+    #contenido2{
+        display: flex;
+        width: 100%;
+        height: 1000px;
+        padding-top: 90px;
+        padding-bottom: 0px;
+
+        /* background-color: red; */
+    }
+    .contenido2_info_1_conts_imgs img{
+        margin: auto;
+        width: 70px; /*Tamaño original 80px*/
+        height: 70px;  /*Tamaño original 80px*/
+        
+        /* background-color: blue; */
+    }
+    .contenido2_info_1_conts_txts h1{
+        font-size: 18px;/*Tamaño orginal 25px*/
+        text-align: center;
+
+        /* color: pink; */
+    }
+    .contenido2_info_1_conts_txts p{
+        font-size: 15px;
+        text-align: center;
+        /* color: pink; */
+    }
+    #pImagenesInfo100{
+        text-align: center;
+    }
+    #contenido2_info_2 h1{
+        font-size: 30px;
+        line-height: 40px;
+
+        /* color: pink; */
+    }
+    #contenido2_info_3{
+        height: 500px;
+
+        /* background-color: blue; */
+    }
+    .Cont2_i3_C_text h1{
+        font-size: 25px; /*Tamaño original 30px*/
+        font-weight: 400;
+        padding-top: 5%;
+        padding-left: 10%;
+
+        /* color: pink; */
+    }
+    .Cont2_i3_C_text p{
+        font-size: 17px;/*Tamaño original 20px*/
+        line-height: 30px;
+        padding-top: 3%;
+        padding-left: 10%;
+
+        /* color:pink; */
+        
+    }
+
+    .central_info_carrucel_conts h2{
+        font-size: 25px; /*Tamaño original 30px*/
+
+        /* color: pink; */
+    }
+    .central_info_carrucel_conts p{
+        font-size: 15px; /*Tamaño original 16px*/
+
+        /* color: pink; */
+    }
+    .central_boton_detalles{
+        display: flex;
+        align-items: center;
+        width: 30%;
+        height: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+        /* background-color:pink; */
+        
+    }
+    .central_boton_detalles1 p{
+        font-size: 18px; /*Tamaño original 25px*/
+        
+        /* color: pink; */
+    }
+
+
+
+    /*----------------------------- Contenido 2 -----------------------------*/
+
+    /*----------------------------- Contenido 3 -----------------------------*/
+
+    #contenido3{
+        margin-top: 100px; /*margen original 120px*/
+        height: 450px; /*Tamaño original 600px*/
+
+        /* background-color: pink; */
+    }
+    .contenido3_central1_conts h3{
+        padding-top: 2%;
+        padding-bottom: 30px;
+        font-size: 22px; /*Tamaño original 25px*/
+        letter-spacing:2px; /*espacio original 3px*/
+
+        /* color: pink; */
+    }
+    .contenido3_central1_conts p{
+        font-size: 15px; /*Tamaño original 17px*/
+        
+        /* color: pink; */
+    }
+    
+
+    .contenido3_central1_conts_img img{ /* Modifica tamaño de las imagenes del telefono y del correo de  contacto*/
+        height: 50%; /*Tamaño original 75%*/
+    }
+    .contenido_central_conts_imagenesInfo a img{ /* Modifica tamaño de imagenes de redes sociales*/
+        height: 40%;  /*Tamaño original 60%*/
+    }
+    
+
+    /*----------------------------- Contenido 3 -----------------------------*/
+
+    #pie_de_pagina{
+        height: 120px;
+
+        /* background-color: pink; */
+    }
+}
+
+/*  ///////////////////// Pantallas hasta 1400px ///////////////////// */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/*  ///////////////////// Pantallas hasta 1200px ///////////////////// */
+
+@media (max-width: 1200px)  {
+
+    /*----------------------------- Contenido 1 -----------------------------*/
+    #Cont1{
+        height: 500px;
+
+        /* background-color: lawngreen; */
+        
+    }
+    .cont1_contenidos3 h1{
+        font-size: 30px; /*Tamaño original 80px*/
+
+        /* color: lawngreen; */
+    }
+    .cont1_contenidos3 p{
+        font-size: 16px; /*Tamaño original 30px*/
+        line-height: 25px;
+
+        /* color: lawngreen; */
+    }
+    
+    #cont1_contenidos4_interno1 h1{
+         font-size: 25px; /* tamaño original 55px*/
+         
+         /* color: lawngreen; */
+    }
+    #cont1_contenidos4_interno2 p{
+        font-size: 15px; /*tamaño original 20px*/
+        line-height: 20px;
+
+        /* color: lawngreen; */
+    }
+    /*----------------------------- Contenido 2 -----------------------------*/
+    #contenido2{
+        display: flex;
+        width: 100%;
+        height: 1000px;
+        padding-top: 90px;
+        padding-bottom: 0px;
+
+        /* background-color: red; */
+    }
+    .contenido2_info_1_conts_imgs img{
+        margin: auto;
+        width: 70px; /*Tamaño original 80px*/
+        height: 70px;  /*Tamaño original 80px*/
+        
+        /* background-color: blue; */
+    }
+    .contenido2_info_1_conts_txts h1{
+        font-size: 17px;/*Tamaño orginal 25px*/
+        text-align: center;
+
+        /* color: red; */
+    }
+    .contenido2_info_1_conts_txts p{
+        font-size: 14px;
+        text-align: center;
+        /* color: lawngreen; */
+    }
+    #pImagenesInfo100{
+        text-align: center;
+    }
+    #contenido2_info_2 h1{
+        font-size: 30px;
+        line-height: 40px;
+
+        /* color: lawngreen; */
+    }
+    #contenido2_info_3{
+        height: 450px;
+
+        /* background-color: blue; */
+    }
+    .Cont2_i3_C_text h1{
+        font-size: 22px; /*Tamaño original 30px*/
+        font-weight: 400;
+        padding-top: 5%;
+        padding-left: 10%;
+
+        /* color: lawngreen; */
+    }
+    .Cont2_i3_C_text p{
+        font-size: 15px;/*Tamaño original 20px*/
+        line-height: 30px;
+        padding-top: 3%;
+        padding-left: 10%;
+
+        /* color:lawngreen; */
+        
+    }
+
+    .central_info_carrucel_conts h2{
+        font-size: 22px; /*Tamaño original 30px*/
+
+        /* color: lawngreen; */
+    }
+    .central_info_carrucel_conts p{
+        font-size: 14px; /*Tamaño original 16px*/
+
+        /* color: lawngreen; */
+    }
+    .central_boton_detalles{
+        display: flex;
+        align-items: center;
+        width: 30%;
+        height: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+        /* background-color:lawngreen; */
+        
+    }
+    .central_boton_detalles1 p{
+        font-size: 15px; /*Tamaño original 25px*/
+        
+        /* color: lawngreen; */
+    }
+
+
+
+    /*----------------------------- Contenido 2 -----------------------------*/
+
+    /*----------------------------- Contenido 3 -----------------------------*/
+
+    #contenido3{
+        margin-top: 100px; /*margen original 120px*/
+        height: 450px; /*Tamaño original 600px*/
+
+        /* background-color: pink; */
+    }
+    .contenido3_central1_conts h3{
+        padding-top: 2%;
+        padding-bottom: 30px;
+        font-size: 22px; /*Tamaño original 25px*/
+        letter-spacing:2px; /*espacio original 3px*/
+
+        /* color: lawngreen; */
+    }
+    .contenido3_central1_conts p{
+        font-size: 15px; /*Tamaño original 17px*/
+        
+        /* color: lawngreen; */
+    }
+    
+
+    .contenido3_central1_conts_img img{ /* Modifica tamaño de las imagenes del telefono y del correo de  contacto*/
+        height: 50%; /*Tamaño original 75%*/
+    }
+    .contenido_central_conts_imagenesInfo a img{ /* Modifica tamaño de imagenes de redes sociales*/
+        height: 40%;  /*Tamaño original 60%*/
+    }
+    
+
+    /*----------------------------- Contenido 3 -----------------------------*/
+
+    #pie_de_pagina{
+        height: 120px;
+
+        /* background-color: pink; */
+    }
+    .pie_central_infoLinks a{
+        font-size: 15px;
+
+        /* color: lawngreen; */
+        
+    }
+}
+
+/*  ///////////////////// Pantallas hasta 1200px ///////////////////// */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/*  ///////////////////// Pantallas hasta 1000px ///////////////////// */
+
+@media (max-width: 1000px)  {
+
+    /*----------------------------- Contenido 1 -----------------------------*/
+    #Cont1{
+        height: 380px;
+
+        /* background-color: magenta; */
+        
+    }
+    .cont1_contenidos3 h1{
+        font-size: 25px; /*Tamaño original 80px*/
+
+        /* color: magenta; */
+    }
+    .cont1_contenidos3 p{
+        font-size: 12px; /*Tamaño original 30px*/
+        line-height: 20px;
+        margin-top: 25px;
+
+        /* color: magenta; */
+    }
+    
+    #cont1_contenidos4_interno1 h1{
+         font-size: 20px; /* tamaño original 55px*/
+         
+         /* color: magenta; */
+    }
+    #cont1_contenidos4_interno2 p{
+        font-size: 12px; /*tamaño original 20px*/
+        line-height: 15px;
+
+        /* color: magenta; */
+    }
+    /*----------------------------- Contenido 2 -----------------------------*/
+    #contenido2{
+        display: flex;
+        width: 100%;
+        height: 1000px;
+        padding-top: 90px;
+        padding-bottom: 0px;
+
+        /* background-color: red; */
+    }
+    .contenido2_info_1_conts_imgs img{
+        margin: auto;
+        width: 50px; /*Tamaño original 80px*/
+        height: 50px;  /*Tamaño original 80px*/
+        
+        /* background-color: blue; */
+    }
+    .contenido2_info_1_conts_txts h1{
+        font-size: 14px;/*Tamaño orginal 25px*/
+        text-align: center;
+
+        /* color: magenta; */
+    }
+    .contenido2_info_1_conts_txts p{
+        font-size: 10px;
+        text-align: center;
+        line-height: 15px;
+
+        /* color: magenta; */
+    }
+    #pImagenesInfo100{
+        text-align: center;
+    }
+    #contenido2_info_2 h1{
+        font-size: 25px;
+        line-height: 40px;
+
+        /* color: magenta; */
+    }
+    #contenido2_info_3{
+        height: 310px;
+
+        /* background-color: magenta; */
+    }
+    .Cont2_i3_C_img{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .Cont2_i3_C_img2{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .Cont2_i3_C_text{
+        border-radius: 0px 0px 10px 10px;
+    }
+    .Cont2_i3_C_text h1{
+        font-size: 17px; /*Tamaño original 30px*/
+        font-weight: 400;
+        padding-top: 3%;
+        padding-left: 10%;
+
+        /* color: magenta; */
+    }
+    .Cont2_i3_C_text p{
+        font-size: 12px;/*Tamaño original 20px*/
+        line-height: 15px;
+        padding-top: 2%;
+        padding-left: 10%;
+
+        /* color:magenta; */
+        
+    }
+
+    .central_info_carrucel_conts h2{
+        font-size: 15px; /*Tamaño original 30px*/
+
+        /* color: magenta; */
+    }
+    .central_info_carrucel_conts p{
+        font-size: 11px; /*Tamaño original 16px*/
+
+        /* color: magenta; */
+    }
+    .central_boton_detalles{
+        display: flex;
+        align-items: center;
+        width: 30%;
+        height: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+        /* background-color:magenta; */
+        
+    }
+    .central_boton_detalles a{
+        font-size: 12px;
+
+        /* background-color:magenta; */
+        
+    }
+    .central_boton_detalles1 p{
+        font-size: 12px; /*Tamaño original 25px*/
+        
+        /* color: magenta; */
+    }
+
+
+
+    /*----------------------------- Contenido 2 -----------------------------*/
+
+    /*----------------------------- Contenido 3 -----------------------------*/
+
+    #contenido3{
+        margin-top: 20px; /*margen original 120px*/
+        height: 350px; /*Tamaño original 600px*/
+
+        /* background-color: pink; */
+    }
+    .contenido3_central1_conts h3{
+        padding-top: 2%;
+        padding-bottom: 20px;
+        font-size: 15px; /*Tamaño original 25px*/
+        letter-spacing:2px; /*espacio original 3px*/
+
+        /* color: lawngreen; */
+    }
+    .contenido3_central1_conts p{
+        font-size: 12px; /*Tamaño original 17px*/
+        
+        /* color: lawngreen; */
+    }
+    
+
+    .contenido3_central1_conts_img img{ /* Modifica tamaño de las imagenes del telefono y del correo de  contacto*/
+        height: 50%; /*Tamaño original 75%*/
+    }
+    .contenido_central_conts_imagenesInfo a img{ /* Modifica tamaño de imagenes de redes sociales*/
+        height: 40%;  /*Tamaño original 60%*/
+    }
+    
+
+    /*----------------------------- Contenido 3 -----------------------------*/
+
+    #pie_de_pagina{
+        height: 80px;
+
+        /* background-color: pink; */
+    }
+    .pie_central_infoLinks a{
+        font-size: 10px;
+
+        /* color: magenta; */
+        
+    }
+}
+
+/*  ///////////////////// Pantallas hasta 1000px ///////////////////// */
+
+
+
+
+
+/* =================================================================================================================================================== */
+/*                                                          Diseño WEB                                                                                 */
+/* =================================================================================================================================================== */
+
+/* =================================================================================================================================================== */
+/*                                                          Diseño movil                                                                               */
+/* =================================================================================================================================================== */
+
+@media (max-width: 750px)  {
+    #contenidoWEB{
+        display: none;
+    }
+    #contenidoMOVIL{
+        display: block;
+    }
+}
