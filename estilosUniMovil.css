@@ -28,19 +28,20 @@
     }
         #Contenido1_M_text h1{
             color: #FFC300;
-            letter-spacing: 3px;
-            margin-top: 25%;
+            margin-top: 40%;
             font-size: 20px;
             line-height: 25px;
+            font-family: Lato;
+            width: 80%;
         }
         #Contenido1_M_text p{
             width: 90%;
             color: white;
-            letter-spacing: 2px;
+            font-family: roboto;
             margin-top: 15%;
             font-size: 12px;
             line-height: 17px;
-            text-align:justify;
+            text-align:left;
         }
 
     #Contenido1_M_img2{
@@ -71,6 +72,7 @@
         font-weight: 600;
         text-align: center;
         line-height: 25px;
+        font-family: Lato;
     }
     #Contenido2_M p{
         width: 100%;
@@ -78,6 +80,7 @@
         text-align: center;
         margin-top: 20px;
         line-height: 17px;
+        font-family: roboto;
     }
 /* ============================================================ Contenido 3 ============================================================ */
 #Contenido3_M{
@@ -118,11 +121,13 @@
                 font-size: 16px;
                 font-weight: 600;
                 text-align: center;
+                font-family: lato;
             }
             .Contenido3_Movil_infos_text p{
                 padding-top: 10px;
                 font-size: 12px;
                 text-align: center;
+                font-family: roboto;
             }
 /* ============================================================ Contenido 3 ============================================================ */
 /* ============================================================ Contenido 4 ============================================================ */
@@ -149,6 +154,7 @@
             font-weight: 600;
             text-align: center;
             line-height: 30px;
+            font-family: lato;
         }
     .Contenido4_Movil_planes{
         width: 80%;
@@ -182,11 +188,13 @@
                 font-weight: 600;
                 margin-bottom: 20px;
                 margin-left: 20px;
+                font-family: lato;
             }
             .Contenido4_Movil_planes_text p{
                 color: white;
                 font-size: 11px;
                 margin-left: 20px;
+                font-family: roboto;
                 
             }
 /* ============================================================ Contenido 4 ============================================================ */
@@ -216,10 +224,12 @@
                 color: #FFC300;
                 font-weight: 600;
                 margin-bottom: 10px;
+                font-family: lato;
             }
             #Contenido5_movil_info1 p{
                 font-size: 11px;
                 color: white;
+                font-family: roboto;
                 
             }
         .Contenido5_movil_info_contacto{
