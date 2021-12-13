@@ -99,13 +99,13 @@ table {
         background-color: #571845;
     }
     .cont1_contenidos2 img{
-        width: 100%;
-        height: 100%;
+        width: 60%;
+        height: 60%;
     }
 
     .cont1_contenidos3{
         width: 100%;
-        height: 40%;
+        height: 50%;
         background-color: #571845;
     }
     .cont1_contenidos3 h1{
@@ -113,12 +113,16 @@ table {
         font-size: 80px;
         font-weight: 600;
         padding-top: 30px;
+        font-family: lato;
+        font-weight: bold;
+        width: 80%;
     }
     .cont1_contenidos3 p{
         color: white;
         font-size: 30px;
         line-height: 40px;
         margin-top: 35px;
+        font-family: Roboto;
 
     }
 
@@ -135,24 +139,31 @@ table {
         height: 50%;
         color: #571845;
         font-size: 55px;
-        font-weight: 600;
 
         /* background-color: gold; */
+    }
+
+    #cont1_contenidos4_interno1 h1{
+        font-family: lato;
+        font-weight: bold;
     }
     #cont1_contenidos4_interno2{
         display: flex;
         align-items: flex-end;
-        width: 90%;
+        width: 70%;
         height: 50%;
         font-size: 20px;
         text-align: justify;
         line-height: 30px;
+        
     }
-
+    #cont1_contenidos4_interno2 p{
+        font-family: Roboto;
+    }
     .cont1_contenidos5{
         display: flex;
         width: 100%;
-        height: 80%;
+        height: 100%;
         /* background-color: lightseagreen; */
         background-image: url(GraficosUniacierta/Images/UniAcierta_01.png);
         background-size: 100%;
@@ -171,7 +182,7 @@ table {
     display: flex;
     width: 100%;
     height: 1200px;
-    padding-top: 90px;
+    padding-top: 265px;
     padding-bottom: 60px;
     background-color: whitesmoke;
 }
@@ -183,7 +194,7 @@ table {
     }
     #contenido2_info{
         /* display: flex; */
-        width: 70%;
+        width: 100%;
         height: 100%;
 
         /* background-color: lightblue; */
@@ -199,6 +210,7 @@ table {
                 
                 width: 33.333%;
                 height: 100%;
+                text-align: center;
             }
             /*
             #d1{
@@ -226,21 +238,28 @@ table {
                         font-size: 25px;
                         color: #571845;
                         padding-top: 15px;
+                        font-family: lato;
+                        font-weight: bold;
+                        text-align: center;
                     }
                     .contenido2_info_1_conts_txts p{
                         width: 90%;
                         margin-top: 15px;
                         line-height: 25px;
+                        font-family: roboto;
+                        text-align: center;
                     }
                     #pImagenesInfo100{
                         width: 100%;
-                        text-align: justify;
+                        text-align: center;
                     }
     #contenido2_info_2{
         display: flex;
         align-items: center;
         width: 100%;
         height: 300px;
+        padding-top: 85px;
+        
 
         /* background-color: rosybrown */
     }
@@ -248,9 +267,10 @@ table {
             width: 100%;
             color: #571845;
             font-size: 40px;
-            font-weight: 600;
             line-height: 60px;
             text-align: center;
+            font-family: lato;
+        font-weight: bold;
             
         }
     #contenido2_info_3{
@@ -281,40 +301,38 @@ table {
             }
                 .Cont2_i3_C_img{
                     width: 100%;
-                    height: 80%;
+                    height: 60%;
                     background-image: url(GraficosUniacierta/Images//UniAcierta_Presencial.png);
                     background-size: 100% 100%;
-                    border-radius: 20px 20px 0px 0px;
                     /* box-shadow: 3px 3px 3px 3px  gray; */
                 }
                 .Cont2_i3_C_img2{
                     width: 100%;
-                    height: 80%;
+                    height: 60%;
                     background-image: url(GraficosUniacierta/Images//UniAcierta_OnLine.png);
                     background-size: 100% 100%;
-                    border-radius: 20px 20px 0px 0px;
                     /* box-shadow: 3px 3px 3px 3px  gray; */
                 }
                 .Cont2_i3_C_text{
                     width: 100%;
                     height: 20%;
                     background-color: #571845;
-                    border-radius: 0px 0px 20px 20px;
                     /* box-shadow: 4px 5px  gray; */
                 }
                     .Cont2_i3_C_text h1{
                         font-size: 30px;
-                        font-weight: 400;
                         color: #FFC300;
                         padding-top: 5%;
                         padding-left: 10%;
+                        font-family: lato;
+                        font-weight: bold;
                     }
                     .Cont2_i3_C_text p{
                         color: white;
                         font-size: 20px;
-                        line-height: 30px;
                         padding-top: 5%;
                         padding-left: 10%;
+                        font-family: roboto;
                         
                     }
             .contenido2_info_3_carrucel_1_curso{
@@ -331,7 +349,7 @@ table {
                 }
                 .central_info_carrucel{
                     width: 100%;
-                    height: 60%;
+                    height: 35%;
 
                     /* background-color: gainsboro; */
                 }
@@ -347,7 +365,8 @@ table {
                         .central_info_carrucel_conts h2{
                             font-size: 30px;
                             color: #571845;
-                            
+                            font-family: lato;
+                            font-weight: bold;
                         }
                         .central_info_carrucel_conts p{
                             font-size: 16px;
@@ -456,14 +475,17 @@ table {
                 padding-top: 2%;
                 padding-bottom: 30px;
                 color: #FFC300;
-                font-size: 25px;
-                font-weight: 600;
-                letter-spacing: 3px;
+                font-size: 35px;
+                font-family: lato;
+                font-weight: bold;
+                
+                
             }
             .contenido3_central1_conts p{
                 
                 color: white;
-                font-size: 17px;
+                font-size: 20px;
+                font-family: roboto;
                 
             }
                 .contenido3_central1_conts_img{
@@ -603,8 +625,8 @@ table {
                     .pie_central_infoLinks a{
                         width: 100%;
                         text-decoration: none;
-                        letter-spacing: 3px;
                         color: #571845;
                         font-size: 17px;
                         text-align: right;
+                        font-family: roboto;
                     }
