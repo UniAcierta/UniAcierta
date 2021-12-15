@@ -6,11 +6,17 @@ $(document).ready(function(){
     var carrucel1 = $(".contenido2_info_3_carrucel_1_btnCarrucel")
     var carrucel2 = $(".contenido2_info_3_carrucel_2_btnCarrucel")
 
+    var privacidad = $("#pie_central_info_privacidad")
+    var terminos = $("#pie_central_info_terminos")
+
+    var privacidad_div = $("#privacidad")
+    var terminos_div = $("#terminos")
+    
     // cont2.hide()
     cont1.hide()
 
     carrucel1.click(function(){
-        cont1.hide();
+        cont1.hide()
         cont2.fadeIn('slow')
         
     })
@@ -18,4 +24,23 @@ $(document).ready(function(){
         cont2.hide()
         cont1.fadeIn('slow')
     })
+
+
+
+    privacidad.click(function(){
+        privacidad_div.fadeIn('slow')
+    })
+
+    privacidad_div.click(function(){
+        privacidad_div.hide()
+    })
+
+    terminos.click(function(){
+        terminos_div.fadeIn('slow')
+    })
+    terminos_div.click(function(){
+        terminos_div.hide()
+    })
+
+
 })

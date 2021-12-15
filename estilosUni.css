@@ -7,9 +7,9 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike,  sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -33,9 +33,9 @@ body {
 	line-height: 1;
     background-color: whitesmoke;
 }
-ol, ul {
-	list-style: none;
-}
+/* ol, ul {
+	list-style: upper-roman; 
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -51,7 +51,92 @@ table {
 /*=============================================================================================================*/
 /*=============================================================================================================*/
 
+/* Terminos y privacidad */
 
+.terminosPrivacidad{
+    display: none;
+    position: fixed;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(245, 245, 245, 0.300);
+    backdrop-filter:blur(5px);
+    padding-top: 5%;
+}
+.terminos_privacidad{
+    
+    margin: auto;
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    background-color: #ffc400ee;
+    
+}
+.header_t_p{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #571845ee;
+}
+.header_t_p h1{
+    width: 100%;
+    color: #FFC300;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.contenido_t_p{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 15px;
+    overflow: auto; /*Scroll*/
+    color: #571845;
+
+    /* background-color: pink; */
+}
+
+.contenido_t_p::-webkit-scrollbar{
+    
+    background-color: transparent;
+} 
+ 
+
+.contenido_t_p h2{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.contenido_t_p h3{
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.contenido_t_p ul li{
+    list-style:disc;
+    font-size: 15px;
+}
+.contenido_t_p ol li{
+    list-style:upper-roman;
+    font-size: 15px;
+    margin-top: 15px;
+}
+strong{
+    font-size: 14px;
+}
+.contenido_t_p p{
+    margin-top: 10px;
+}
+/* Terminos y privacidad */
+/*=============================================================================================================*/
+/*=============================================================================================================*/
 /*=================================Contenedor 1=================================*/
 #contenidoMOVIL{
     display: none;
@@ -613,19 +698,22 @@ table {
                         height: 60%;
                         width: 90%;
                     }
-                .pie_central_infoLinks{
-                    display: flex;
-                    align-items: center;
-                    width: 33.3333%;
-                    height: 70%;
-
-                    /* background-color: aliceblue; */
-                }
-                    .pie_central_infoLinks a{
-                        width: 100%;
-                        text-decoration: none;
-                        color: #571845;
-                        font-size: 17px;
-                        text-align: right;
-                        font-family: roboto;
+                    .pie_central_infoLinks{
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        width: 50%;
+                        height: 70%;
+    
+                        /* background-color: aliceblue; */
                     }
+                        .pie_central_infoLinks p{
+                            text-decoration: none;
+                            letter-spacing: 3px;
+                            color: #571845;
+                            font-size: 17px;
+                            text-align: right;
+                            cursor: pointer;
+    
+                            /* background-color: red; */
+                        }
