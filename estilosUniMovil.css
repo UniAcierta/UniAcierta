@@ -313,7 +313,7 @@ footer{
             .footer_enlaces img{
                 height: 90%;
             }
-            .footer_enlaces a{
+            .footer_enlaces p{
                 
                 text-decoration: none;
                 font-size: 11px;
@@ -325,7 +325,7 @@ footer{
                 align-items: center;
 
             }
-            .footer_contacto a{
+            .footer_contacto p{
                 width: 100%;
                 text-align: right;
             }
