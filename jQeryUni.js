@@ -9,6 +9,9 @@ $(document).ready(function(){
     var privacidad = $("#pie_central_info_privacidad")
     var terminos = $("#pie_central_info_terminos")
 
+    var privacidad_M = $("pie_central_info_privacidad_M")
+    var terminos_M = $("#pie_central_info_terminos_M")
+
     var privacidad_div = $("#privacidad")
     var terminos_div = $("#terminos")
     
@@ -42,5 +45,12 @@ $(document).ready(function(){
         terminos_div.hide()
     })
 
+
+    privacidad_M.click(function(){
+        privacidad_div.fadeIn('slow')
+    })
+    terminos_M.click(function(){
+        terminos_div.fadeIn('slow')
+    })
 
 })
