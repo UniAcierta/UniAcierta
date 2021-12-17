@@ -675,4 +675,25 @@
     #contenidoMOVIL{
         display: block;
     }
+    .header_t_p h1{
+        font-size: 18px;
+    }
+    .contenido_t_p h2{
+        font-size: 15px;
+    }
+    .contenido_t_p h3{
+        font-size: 13px;
+    }
+    .contenido_t_p ul li{
+        font-size: 13px;
+    }
+    .contenido_t_p ol li{
+        font-size: 13px;
+    }
+    strong{
+        font-size: 12px;
+    }
+    .contenido_t_p p{
+        font-size: 12px;
+    }
 }

@@ -9,8 +9,8 @@ $(document).ready(function(){
     var privacidad = $("#pie_central_info_privacidad")
     var terminos = $("#pie_central_info_terminos")
 
-    var privacidad_M = $("pie_central_info_privacidad_M")
-    var terminos_M = $("#pie_central_info_terminos_M")
+    
+    
 
     var privacidad_div = $("#privacidad")
     var terminos_div = $("#terminos")
@@ -46,11 +46,21 @@ $(document).ready(function(){
     })
 
 
-    privacidad_M.click(function(){
-        privacidad_div.fadeIn('slow')
-    })
+    /* terminos y privacidad movil*/
+
+    var terminos_M = $("#pie_central_info_terminos_M")
+
     terminos_M.click(function(){
         terminos_div.fadeIn('slow')
+        
+    })
+
+
+    var privacidad_m = $("#pie_central_info_privacidad_M")
+
+    privacidad_m.click(function(){
+        
+        privacidad_div.fadeIn('slow')
     })
 
 })

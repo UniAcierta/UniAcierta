@@ -99,7 +99,7 @@ table {
     overflow: auto; /*Scroll*/
     color: #571845;
 
-    /* background-color: pink; */
+    /* background-color: #FFC300; */
 }
 
 .contenido_t_p::-webkit-scrollbar{
